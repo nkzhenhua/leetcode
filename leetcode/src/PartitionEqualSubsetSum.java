@@ -1,4 +1,3 @@
-package leetcode;
 
 public class PartitionEqualSubsetSum {
     public static boolean canPartition(int[] nums) {
