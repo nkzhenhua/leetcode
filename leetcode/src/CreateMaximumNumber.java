@@ -15,7 +15,7 @@ public class CreateMaximumNumber {
 		ret[idx++] = num[0];
 		for( int i=1; i< num.length; i++){
 			for( ; idx > 0; ){
-				if( ret[idx-1] < num[i] && ( idx + num.length - i >=k )){
+				if( ret[idx-1] < num[i] && ( idx + num.length - i >k )){
 					idx--;
 				}else{
 					break;
