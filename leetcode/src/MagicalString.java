@@ -22,7 +22,7 @@ public class MagicalString {
         		cur = '2';
         	}
         	if( repeat == 1){
-        		magic.append(cur);
+       		magic.append(cur);
         	}else{
         		magic.append(cur).append(cur);
         	}
